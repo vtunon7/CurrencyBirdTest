@@ -2,12 +2,12 @@
   "name": "currencybirdtest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "type": "commonjs",
   "scripts": {
     "test": "test",
-    "start": "ts-node index.ts",
-    "dev": "nodemon --exec ts-node ./index.ts"
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
