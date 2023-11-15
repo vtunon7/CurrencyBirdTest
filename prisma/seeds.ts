@@ -7,12 +7,6 @@ async function main() {
       name: "GeneralPayment",
     },
   });
-  await prisma.user.create({
-    data: {
-      email: "vtunon@uc.cl",
-      name: "Vicente Tunon",
-    },
-  });
 }
 
 main()
