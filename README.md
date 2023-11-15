@@ -18,16 +18,34 @@ ENV_COMMAND=<commando env>
 DATABASE_URL=<url bdd>
 ```
 
+Usando docker compose:
+
+```bash
+docker-compose build
+```
+
 Para levantar la base de datos, migraciones y seeds:
 
 ```bash
 npx prisma migrate dev
 ```
 
+Usando docker compose:
+
+```bash
+docker-compose exec npx prisma migrate dev
+```
+
 Para correr:
 
 ```bash
 npm start
+```
+
+Usando docker compose:
+
+```bash
+docker-compose up
 ```
 
 El endpoint para poder hacer los pagos es:
