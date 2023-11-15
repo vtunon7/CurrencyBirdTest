@@ -21,9 +21,9 @@ services:
     depends_on:
       - postgres
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/currency_bird_test
+      DATABASE_URL: ${DATABASE_URL}
     ports:
-      - 4000:4000
+      - ${PORT}:${PORT}
     networks:
       - app-network
     restart: always
