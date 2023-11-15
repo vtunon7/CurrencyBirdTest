@@ -79,3 +79,11 @@ Si falla por error haciendo POST a la información del pago:
   "message": "Error payment already made"
 }
 ```
+
+Si falla porque el pago ya existe:
+
+```
+{
+  "message": "Error payment already made, cannot make another one"
+}
+```
